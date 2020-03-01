@@ -108,7 +108,7 @@ src: url('../fonts/themex.woff') format('truetype');
 
 body {
 	direction: rtl;
-	text-align: right;
+	text-align: justify;
 	background: #ffffff;
 	color:#718494;
 	font-size:16px;
