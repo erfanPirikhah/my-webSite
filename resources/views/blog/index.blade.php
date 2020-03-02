@@ -393,7 +393,7 @@
 								<p>
 									{{$item->excerpt}}
 								</p>
-								<a href="{{route('post.show',['post'=>$item->slug])}}" class="read-more">ادامه مطلب<i class="ti-arrow-right"></i></a>
+								<a href="{{route('post.show',["post"=>$item->slug])}}" class="read-more">ادامه مطلب<i class="ti-arrow-right"></i></a>
 							</div>
 						</div>
 					</div>
