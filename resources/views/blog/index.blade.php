@@ -377,51 +377,27 @@
 					<div class="row">
 						<div class="col text-center">
 							<div class="sec-heading mx-auto">
-								<h2 class="font-2 font-normal">تمام ابزارهایی که نیاز دارید</h2>
-								<p>تم ایکس در حال ایجاد یک عصر جدید برای قالب های اچ تی ام ال است، شما هرگز قادر به گرفتن همان کیفیت با هر طراحی دیگر نخواهید بود.</p>
+								<h2 class="font-2 font-normal">آخرین اخبار و مقالات </h2>
 							</div>
 						</div>
 					</div>
 					
 					<div class="row">
-						<div class="col-lg-4 col-md-4 mb-4">
-							<div class="feature feature-1">
-								<img class="img-responsive" src="/blog/assets/img/img-3.jpg" alt="Image">
-								<div class="feature__body boxed boxed--border">
-									<h4>ساخته شده برای مشتریان</h4>
-									<p>
-										لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
-									</p>
-									<a href="#" class="read-more">ادامه مطلب<i class="ti-arrow-right"></i></a>
-								</div>
-							</div>
-						</div>
 						
-						<div class="col-lg-4 col-md-4 mb-4">
-							<div class="feature feature-1">
-								<img class="img-responsive" src="/blog/assets/img/img-5.jpg" alt="Image">
-								<div class="feature__body boxed boxed--border">
-									<h4>ساخته شده خلاقانه و خوب</h4>
-									<p>
-										لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
-									</p>
-									<a href="#" class="read-more">ادامه مطلب<i class="ti-arrow-right"></i></a>
-								</div>
+					@foreach ($posts as $item)
+					<div class="col-lg-4 col-md-4 mb-4">
+						<div class="feature feature-1">
+						<img class="img-responsive" src="/storage/{{$item->image}}" alt="Image">
+							<div class="feature__body boxed boxed--border">
+								<h4>{{$item->title}}</h4>
+								<p>
+									{{$item->excerpt}}
+								</p>
+								<a href="{{route('post.show',['post'=>$item->slug])}}" class="read-more">ادامه مطلب<i class="ti-arrow-right"></i></a>
 							</div>
 						</div>
-						
-						<div class="col-lg-4 col-md-4 mb-4">
-							<div class="feature feature-1">
-								<img class="img-responsive" src="/blog/assets/img/img-4.jpg" alt="Image">
-								<div class="feature__body boxed boxed--border">
-									<h4>ساخته شده خلاقانه و خوب</h4>
-									<p>
-										لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
-									</p>
-									<a href="#" class="read-more">ادامه مطلب<i class="ti-arrow-right"></i></a>
-								</div>
-							</div>
-						</div>
+					</div>
+					@endforeach
 						
 					</div>
 					

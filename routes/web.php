@@ -11,9 +11,26 @@
 |
 */
 
-Route::get('/', function () {
-    return view('blog.index');
+
+
+Route::group(['namespace'=>'Blog'],function(){
+    Route::get('/', 'BlogController@index');
+    Route::get('/post', 'BlogController@postAll');
+    Route::get('/postShow/{post}', 'BlogController@showPost')->name('post.show');
+
 });
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 Route::group(['prefix' => 'admin'], function () {
