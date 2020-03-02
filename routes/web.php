@@ -18,6 +18,9 @@ Route::group(['namespace'=>'Blog'],function(){
     Route::get('/post', 'BlogController@postAll');
     Route::get('/postShow/{post}', 'BlogController@showPost')->name('post.show');
 
+    Route::get('/sample', 'BlogController@sampleAll');
+    Route::get('/sample/{post}', 'BlogController@showSample')->name('sample.show');
+
 });
 
 

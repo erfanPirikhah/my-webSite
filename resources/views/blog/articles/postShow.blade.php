@@ -35,7 +35,7 @@
 										<div class="post-meta">توسط: <a href="#" class="author theme-cl">Admin</a></div>
 										<a href="blog-detail.html"><h3>{{$post->title}}</h3></a>
 										<div class="blog-text">
-                                            <p>{{$post->body}}</p>
+                                            <p>{!!$post->body!!}</p>
 											<div class="post-meta">ثبت شده در: <span class="category"><a href="#" class="theme-cl">فناوری</a></span></div>
 										</div>
 										
