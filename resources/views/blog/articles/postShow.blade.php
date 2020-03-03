@@ -36,7 +36,6 @@
 										<a href="blog-detail.html"><h3>{{$post->title}}</h3></a>
 										<div class="blog-text">
                                             <p>{!!$post->body!!}</p>
-											<div class="post-meta">ثبت شده در: <span class="category"><a href="#" class="theme-cl">فناوری</a></span></div>
 										</div>
 										
 										<!-- Blog Share Option -->

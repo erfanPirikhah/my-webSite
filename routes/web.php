@@ -15,6 +15,7 @@
 
 Route::group(['namespace'=>'Blog'],function(){
     Route::get('/', 'BlogController@index');
+    Route::get('/us', 'BlogController@us');
     Route::get('/post', 'BlogController@postAll');
     Route::get('/postShow/{post}', 'BlogController@showPost')->name('post.show');
 
@@ -25,7 +26,7 @@ Route::group(['namespace'=>'Blog'],function(){
 
 
 
-
+Route::resource('admin/us', 'Admin\UsController');
 
 
 

@@ -33,11 +33,16 @@
         <!-- Main wrapper - style you can find in pages.scss -->
         <!-- ============================================================== -->
         <div id="main-wrapper">
-		
+			{{url()->current()}}
             <!-- ============================================================== -->
             <!-- Top header  -->
-            <!-- ============================================================== -->
-            @include('blog.layout.nav')
+			<!-- ============================================================== -->
+			@if (url()->current()== 'http://localhost:8000' )
+				@include('blog.layout.nav')	
+			@else
+				@include('blog.layout.nav2')
+			@endif
+          
 			<!-- ============================================================== -->
 			<!-- Top header  -->
 			<!-- ============================================================== -->
@@ -75,14 +80,14 @@
 		<script src="/blog/assets/js/isotope.min.js"></script>
 		<script src="/blog/assets/js/custom.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js"></script>
-
+		<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 		<!-- ============================================================== -->
 		<!-- This page plugins -->
 		<!-- ============================================================== -->
 
-
+		@include('sweet::alert')
 	</body>
 
 </html>
