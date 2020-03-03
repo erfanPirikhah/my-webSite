@@ -6,11 +6,16 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use TCG\Voyager\Models\Post;
 
+use Artesaos\SEOTools\Facades\SEOTools;
+use Artesaos\SEOTools\Facades\SEOMeta;
+
 class BlogController extends Controller
 {
     public function index()
     {
+       
         $posts=Post::where('category_id', '4')->latest()->paginate(6);
+      
         return view('blog.index', compact('posts'));
     }
 
@@ -22,7 +27,12 @@ class BlogController extends Controller
 
     public function showPost(Post $post)
     {
+      
+
+        SEOTools::setTitle("$post->seo_title")->setDescription("$post->meta_description")->metatags()->setKeywords("$post->meta_keywords");
         
+
+
         $latestpost=Post::where('category_id', '4')->latest()->paginate(5);
         return view('blog.articles.postShow', compact('post', 'latestpost'));
     }
@@ -36,6 +46,8 @@ class BlogController extends Controller
 
     public function showSample(Post $post)
     {
+        SEOTools::setTitle("$post->seo_title")->setDescription("$post->meta_description")->metatags()->setKeywords("$post->meta_keywords");
+
         $latestpost=Post::where('category_id', '3')->latest()->paginate(5);
         return view('blog.sample.showSample', compact('post', 'latestpost'));
     }

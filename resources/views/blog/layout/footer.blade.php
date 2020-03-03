@@ -2,64 +2,60 @@
     <div>
         <div class="container">
             <div class="row">
-                
                 <div class="col-lg-3 col-md-6">
                     <div class="footer-widget">
-                        <h4 class="widget-title">لینک های مفید</h4>
+                        <h4 class="widget-title">خدمات</h4>
                         <ul class="footer-menu">
-                            <li><a href="#">بازاریابی دیجیتال</a></li>
-                            <li><a href="#">کسب و کار و شرکت</a></li>
-                            <li><a href="#">صفحه لندینگ</a></li>
-                            <li><a href="#">استخدام و تقدیر</a></li>
-                            <li><a href="#">نرم افزار و برنامه</a></li>
+                         <li>مشاوره به صورت رایگان</li>
+                         <li>طراحی سایت</li>
+                         <li> طراحی سایت فروشگاهی</li>
+                         <li>طراحی سایت خبری</li>
+                         <li>طراحی سایت رسپانسیو </li>
+                         <li>طراحی سایت شرکتی </li>
+                         <li>طراحی سایت املاک</li>
+                         <li></li>
                         </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-widget">
+                        <h4 class="widget-title">ارتباط با ما</h4>
+                        
+                        <div>
+                            <a href=""><img class="tel" src="/blog/assets/img/download.png" alt=""  /></a><span style="margin-right:15px">telegram</span>
+                        </div>
+                        <div>
+                            <a href=""><img class="tel" src="/blog/assets/img/Whatsapp-512.png" alt="" /></a><span style="margin-right:15px">Whatsapp</span>
+                        </div>
+
+                        <div>
+                            <a href=""><img class="tel" src="/blog/assets/img/ir.apmdd.png" alt=""  /></a><span style="margin-right:15px">instageram</span>
+
+                        </div>
                     </div>
                 </div>		
-                <div class="col-lg-3 col-md-6">
-                    <div class="footer-widget">
-                        <h4 class="widget-title">لینک های مفید</h4>
-                        <ul class="footer-menu">
-                            <li><a href="#">بازاریابی دیجیتال</a></li>
-                            <li><a href="#">کسب و کار و شرکت</a></li>
-                            <li><a href="#">صفحه لندینگ</a></li>
-                            <li><a href="#">استخدام و تقدیر</a></li>
-                            <li><a href="#">نرم افزار و برنامه</a></li>
-                        </ul>
-                    </div>
-                </div>
+                
                         
                 <div class="col-lg-3 col-md-6">
                     <div class="footer-widget">
-                        <h4 class="widget-title">لینک های مفید</h4>
-                        <p>7744 خیابان یکم کوچه دوم<br>
-                            تهران، غرب 714258</p>
-                            <p>support@themex77.com</p>
-                            <p>777-444-2222</p>
+                        <h4 class="widget-title"></h4>
+                        <p>ایمیل:</p>
+                        <p><i class="fas fa-envelope-open-text"></i>  <a href="mailto:erfan.pirikhah@gmail.com">Erfan.pirikhah@gmail.com</a><br>
+                        <p>شماره تماس:</p>
+                        <p><i class="fas fa-mobile-alt"></i>  09374867759<br><br>
+                            <a href="tel:09374867759" class="btn btn-success-light btn-rounded mb-2">برای برقرای تماس اینجا کلیک کنید</a>
+                           
                     </div>
                 </div>
                 
-                <div class="col-lg-3 col-md-6">
-                    <div class="footer-widget">
-                        <h4 class="widget-title">فالو کردن ما</h4>
-                        <ul class="footer-bottom-social">
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                        </ul>
-                        
-                        <form class="signup-frm mt-4">
-                            <input type="email" class="form-control sigmup-me" placeholder="آدرس ایمیل شما" required="required">
-                            <button type="submit" class="btn btn-info"><i class="ti-arrow-right"></i></button>
-                        </form>
-                    </div>
-                </div>
+              
                 
             </div>
         </div>
     </div>
     
-    <div class="footer-bottom">
+    {{-- <div >
         <div class="container">
             <div class="row align-items-center">
                 
@@ -69,5 +65,7 @@
                 
             </div>
         </div>
-    </div>
+    </div> --}}
+
+    
 </footer>
