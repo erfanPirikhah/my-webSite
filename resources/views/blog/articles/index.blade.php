@@ -9,12 +9,11 @@
 		
 			
 			<!-- ============================ Hero Banner  Start================================== -->
-			<div  >
+			<div >
 				<div class="container">
 					<div class="col-lg-12 col-md-12">
 						<div class="pt-caption text-center mt-5">
-						
-							<p><a href="/">خانه</a><span class="current-page">اخبار و مقالات</span></p>
+							<p><a href="/"  style="color:#faaf40">خانه</a><span class="current-page"  style="color:#faaf40">>اخبار و مقالات</span></p>
 						</div>
 					</div>
 				</div>

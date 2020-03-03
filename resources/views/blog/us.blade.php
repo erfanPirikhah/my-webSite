@@ -8,7 +8,7 @@
 					<div class="col-lg-12 col-md-12">
 						<div class="pt-caption text-center mt-5">
 							<h1  style="color:#faaf40">در تماس باشید</h1>
-							<p><a href="index-2.html"  style="color:#faaf40">خانه</a><span class="current-page"  style="color:#faaf40">تماس با ما</span></p>
+							<p><a href="/"  style="color:#faaf40">خانه</a><span class="current-page"  style="color:#faaf40">تماس با ما</span></p>
 						</div>
 					</div>
 				</div>
