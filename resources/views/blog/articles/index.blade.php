@@ -45,7 +45,7 @@
 									
 									</div>
 									<div class="blog-grid-content">
-										<h4 class="cnt-gb-title"><a href="blog-detail.html">{{$post->title}}</a></h4>
+										<h4 class="cnt-gb-title"><a href="{{route('post.show',["post"=>$post->slug])}}">{{$post->title}}</a></h4>
 										<p>{{$post->excerpt}}</p>
 									</div>
 									<div class="blog-grid-meta">

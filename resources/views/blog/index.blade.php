@@ -7,16 +7,25 @@
     			
 			<!-- ============================ Hero Banner  Start================================== -->
 			<div class="hero-header jumbo-banner" style="background:#3389ff url(/blog/assets/img/tbg-77.png);">
+
 				<div class="container">
+					<div>
+						<a href="index-2.html" class="navbar-brand"  ><img src="/blog/assets/img/Untitled-1.png" alt="DeltaWeb" ></a>
+
+					</div>
 					<div class="row">
+					
+
 						<div class="col-md-7">
+
 							<div class="hero-content light-vid ">
-								<h1 class="mb-4">بهترین تجزیه و تحلیل محصول</h1>
-								<p class="lead-i">مسابقه ترافیک من را دریافت کنید و یک مشاوره سفارشی داشته باشید که از طریق چگونگی افزایش ترافیک شما پیاده می شود.</p>
-								<div class="btn-wrap mt-4">
+								<h1 class="mb-4">خدمات طراحی وب سایت</h1>
+								<p class="lead-i">وب سایت شما بزرگترین فروشگاه برای کسب و کارتان است.شکی نیست که ساخت وب سایت اولین قدم برای کسب درامد از اینترنت می باشد. پس طراحی وب سایت شما اهمیّت بسیار زیادی برای ما دارد.</p>
+								{{-- <div class="btn-wrap mt-4">
 									<a href="#" class="btn btn-light btn-rounded btn-lg">اطلاعات بیشتر</a>
-								</div>
+								</div> --}}
 							</div>
+
 						</div>
 						<div class="col-md-5 hidden-xs">
 						<div class="hero-content">
@@ -30,7 +39,7 @@
 			<div class="clearfix"></div>
 			<!-- ============================ Hero Banner End ================================== -->
             
-            
+         
             <section>
 				<div class="container">
 					
@@ -42,8 +51,8 @@
 								<div class="middle-icon-features-item">
 									<div class="middle-icon-large-features-box f-light-warning"><i class="ti-ruler-pencil"></i></div>
 									<div class="middle-icon-features-content">
-										<h4>طراحی یک وب سایت زیبا</h4>
-										<p>ما انسان‌ها زیبایی و نظم را دوست داریم. یک وب سایت جذاب، تاثیری فوق‌العاده‌ بر روی مخاطب شما خواهد گذاشت.</p>
+										<h4>طراحی یک وب سایت چشم نواز</h4>
+										<p>ما آدم ها به زیبایی و نظم عشق می ورزیم . یک وب سایت جذاب، تاثیری فوق‌العاده‌ بر روی مخاطب شما خواهد گذاشت.</p>
 									</div>
 								</div>
 							</div>
@@ -55,7 +64,7 @@
 									<div class="middle-icon-large-features-box"><i class="ti-shopping-cart-full"></i></div>
 									<div class="middle-icon-features-content">
 										<h4>طراحی یک وب سایت کاربردی</h4>
-										<p>اگر استفاده از وب سایت شما راحت نباشد، حتی یک طراحی بصری فوق‌العاده هم کمک چندانی به شما نخواهد کرد.</p>
+										<p>اگر استفاده از وب سایت شما آسان نباشد، حتی یک طراحی زیبا هم کمک چندانی به شما نخواهد کرد.</p>
 									</div>
 								</div>
 							</div>
@@ -66,8 +75,8 @@
 								<div class="middle-icon-features-item">
 									<div class="middle-icon-large-features-box f-light-success"><i class="ti-desktop"></i></div>
 									<div class="middle-icon-features-content">
-										<h4>طراحی یک وب سایت با هویت</h4>
-										<p>وب سایت شما باید هویت داشته باشد. طراحی سایت شما باید نشان دهد که کسب و کارتان چه باورها و ارزش‌هایی دارد.</p>
+										<h4>طراحی یک وب سایت با حرفه ای</h4>
+										<p>وب سایت شما باید حرفه ای باشد. طراحی سایت شما باید نشان دهد که کسب و کارتان چه ارزش‌هایی دارد.</p>
 									</div>
 								</div>
 							</div>
@@ -112,7 +121,7 @@
 											<div class="veticle-large-features-box"><i class="ti-reload"></i></div>
 											<div class="veticle-features-content">
 												<h4>امکانات کامل</h4>
-												<p>شما تمام امکانات لازم برای مدیریت و توسعه وب سایت خود را در اختیار خواهید داشت.</p>
+												<p>شما تمام امکانات لازم برای مدیریت و توسعه وب سایت خود را دراختیارخواهیدداشت.</p>
 											</div>
 										</div>
 									</div>

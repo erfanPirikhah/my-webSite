@@ -23,14 +23,14 @@
                         <h4 class="widget-title">ارتباط با ما</h4>
                         
                         <div>
-                            <a href=""><img class="tel" src="/blog/assets/img/download.png" alt=""  /></a><span style="margin-right:15px">telegram</span>
+                            <a href="https://t.me/DelltaWeb"><img class="tel" src="/blog/assets/img/download.png" alt=""  /></a><span style="margin-right:15px">telegram</span>
                         </div>
                         <div>
-                            <a href=""><img class="tel" src="/blog/assets/img/Whatsapp-512.png" alt="" /></a><span style="margin-right:15px">Whatsapp</span>
+                            <a href="https://wa.me/989374867759"><img class="tel" src="/blog/assets/img/Whatsapp-512.png" alt="" /></a><span style="margin-right:15px">Whatsapp</span>
                         </div>
 
                         <div>
-                            <a href=""><img class="tel" src="/blog/assets/img/ir.apmdd.png" alt=""  /></a><span style="margin-right:15px">instageram</span>
+                            <a href=""><img class="tel" src="/blog/assets/img/ir.apmdd.png" alt=""  /></a><span style="margin-right:15px">instagram</span>
 
                         </div>
                     </div>

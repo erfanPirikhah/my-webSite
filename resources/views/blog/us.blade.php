@@ -29,7 +29,7 @@
 										<i class="ti-home"></i>
 									</div>
 									<div class="add-text-box">
-										<h4>مدیر تم ایکس</h4>
+										<h4>DeltaWeb </h4>
                                          مدیر و برنامه نویس سایت <br>
                                          عرفان پیری خواه
 									</div>
@@ -43,8 +43,8 @@
 									</div>
 									<div class="add-text-box">
 										<h4>ایمیل ها</h4>
-										virasat@gmail.com<br>
-										my.virasat@gmail.com<br>
+										<a href="mailto:erfan.pirikhah@gmail.com" style="color:white">Erfan.pirikhah@gmail.com</a><br><br>
+									
 									</div>
 								</div>
 								<div class="add-box">
@@ -53,8 +53,10 @@
 									</div>
 									<div class="add-text-box">
 										<h4>تماس ها</h4>
-										91+ 123 456 9857<br>
-										91+ 258 548 5426<br>
+										<a href="tel:09374867759" style="color:white">	09374867759</a>
+
+										<br>
+										
 									</div>
 								</div>
 							</div>

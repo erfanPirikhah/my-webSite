@@ -6,8 +6,8 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 		
-        <title>Themex Multipurpose HTML Template</title>
-		
+        <title>دلتا وب</title>
+		<link rel="shortcut icon" href="/blog/assets/img/Team_Deltalogo_square2.png">
         <!-- All Plugins Css -->
 		<link href="/blog/assets/css/plugins.css" rel="stylesheet">
 		
