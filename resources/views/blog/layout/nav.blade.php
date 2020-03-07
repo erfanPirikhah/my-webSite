@@ -3,7 +3,7 @@
     <div class="header exchange-logo">
         <div class="container po-relative">
             <nav class="navbar navbar-expand-lg header-nav-bar">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation"><span class="ti-align-right"></span></button>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation" style="color: cyan;"><span class="ti-align-right" ></span></button>
                 <div class="collapse navbar-collapse hover-dropdown font-14 ml-auto" id="navigation">
                     <ul class="navbar-nav ml-auto">
                         

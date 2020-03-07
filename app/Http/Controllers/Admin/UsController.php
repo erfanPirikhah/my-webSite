@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Http\Controllers\Admin;
+
 use SweetAlert;
 use App\Http\Controllers\Controller;
 use App\us;
@@ -16,7 +17,7 @@ class UsController extends Controller
     public function index()
     {
         $us=Us::all();
-        return view(('Admin.us.index'),compact('us'));
+        return view(('Admin.us.index'), compact('us'));
     }
 
     /**
@@ -54,9 +55,8 @@ class UsController extends Controller
             'description'=>request('description'),
             'body'=>request('body')
         ]);
-        alert()->success('پیام شما با موفقیت برای ما ارسال شد :)',)->persistent('بستن');
-         return back();
-         
+        alert()->success('پیام شما با موفقیت برای ما ارسال شد :)', )->persistent('بستن');
+        return back();
     }
 
     
@@ -80,7 +80,7 @@ class UsController extends Controller
      */
     public function edit(us $us)
     {
-        return view('Admin.us.show',compact('us'));
+        return view('Admin.us.show', compact('us'));
     }
 
     /**
@@ -107,3 +107,14 @@ class UsController extends Controller
         return back();
     }
 }
+
+
+
+
+
+
+
+
+
+
+

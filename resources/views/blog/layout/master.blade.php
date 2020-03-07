@@ -18,17 +18,18 @@
         <link href="/blog/assets/css/styles.css" rel="stylesheet">
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" rel="stylesheet">
     </head>
+
+    <body >
+
 	
-    <body>
+
+		
+
+
        <!-- ============================================================== -->
         <!-- Preloader - style you can find in spinners.css -->
         <!-- ============================================================== -->
-        <div class="preloader" style="display: none;">
-            <div class="loader">
-                <div class="loader__figure"></div>
-                <p class="loader__label">Themex</p>
-            </div>
-        </div>
+    
 		
         <!-- ============================================================== -->
         <!-- Main wrapper - style you can find in pages.scss -->
@@ -67,6 +68,9 @@
 		<!-- ============================================================== -->
 		<!-- All Jquery -->
 		<!-- ============================================================== -->
+
+		
+
 		<script src="/blog/assets/js/jquery.min.js"></script>
 		<script src="/blog/assets/js/popper.min.js"></script>
 		<script src="/blog/assets/js/bootstrap.min.js"></script>
@@ -87,8 +91,15 @@
 		<!-- ============================================================== -->
 		<!-- This page plugins -->
 		<!-- ============================================================== -->
+	
+		
+		
+
 
 		@include('sweet::alert')
+
+		
 	</body>
+	
 
 </html>
