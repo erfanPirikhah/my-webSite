@@ -55,7 +55,7 @@ class UsController extends Controller
             'description'=>request('description'),
             'body'=>request('body')
         ]);
-        alert()->success('پیام شما با موفقیت برای ما ارسال شد :)', )->persistent('بستن');
+        alert()->success('پیام شما با موفقیت برای ما ارسال شد :)')->persistent('بستن');
         return back();
     }
 
@@ -107,14 +107,3 @@ class UsController extends Controller
         return back();
     }
 }
-
-
-
-
-
-
-
-
-
-
-

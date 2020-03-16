@@ -69,13 +69,13 @@
 												
                                                     @foreach ($latestpost as $item)
                                                     <li>
-                                                        <a href="{{route('post.show',['post'=>$item->id])}}">
+                                                        <a href="{{route('post.show',['post'=>$item->slug])}}">
                                                             <div class="blog-list-img">
                                                                 <img src="/storage/{{$item->image}}" class="img-responsive" alt="{{$item->image}}">
                                                             </div>
                                                         </a>
                                                         <div class="blog-list-info">
-                                                            <h5><a href="#" title="blog">{{$item->title}}</a></h5>
+                                                            <h5><a href="{{route('post.show',['post'=>$item->slug])}}" title="blog">{{$item->title}}</a></h5>
                                                             <div class="blog-post-meta">
                                                                 <span class="updated">{{jdate($item->created_at)->ago()}}</span> 			
                                                             </div>
