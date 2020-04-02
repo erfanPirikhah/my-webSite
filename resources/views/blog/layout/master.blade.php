@@ -9,19 +9,18 @@
         <title>دلتا وب</title>
 		<link rel="shortcut icon" href="/blog/assets/img/Team_Deltalogo_square2.png">
         <!-- All Plugins Css -->
-		<link href="/blog/assets/css/plugins.css" rel="stylesheet">
+		
+		
 		
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
-
-
-<link href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css?family=Alex+Brush" rel="stylesheet">
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" rel="stylesheet"/>
+		<link href="https://fonts.googleapis.com/css?family=Alex+Brush" rel="stylesheet">
+		<link href="/blog/assets/css/all.css" rel="stylesheet">
 
 
         <!-- Custom CSS -->
-        <link href="/blog/assets/css/styles.css" rel="stylesheet">
+     
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" rel="stylesheet">
     </head>
 
@@ -85,19 +84,7 @@
 	
 		
 
-		<script src="/blog/assets/js/jquery.min.js"></script>
-		<script src="/blog/assets/js/popper.min.js"></script>
-		<script src="/blog/assets/js/bootstrap.min.js"></script>
-		<script src="/blog/assets/js/aos.js"></script>
-		<script src="/blog/assets/js/perfect-scrollbar.jquery.min.js"></script>
-		<script src="/blog/assets/js/owl.carousel.min.js"></script>
-		<script src="/blog/assets/js/jquery-rating.js"></script>
-		<script src="/blog/assets/js/slick.js"></script>
-		<script src="/blog/assets/js/slider-bg.js"></script>
-		<script src="/blog/assets/js/lightbox.js"></script> 
-		<script src="/blog/assets/js/imagesloaded.js"></script>
-		<script src="/blog/assets/js/isotope.min.js"></script>
-		<script src="/blog/assets/js/custom.js"></script>
+		<script src="/blog/assets/js/all.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js"></script>
 		<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

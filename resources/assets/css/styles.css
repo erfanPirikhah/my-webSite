@@ -2917,7 +2917,7 @@
   .header-nav-bar .navbar-nav .nav-link {
     padding: 35px 15px;
       font-family:'IRANSansDN', 'spartan_mbregular';
-    color: rgba(255, 255, 255, 0.7);
+   color:#faaf40;;
   }
   .header.dark-text .header-nav-bar .navbar-nav .nav-link {
     color:#546e7a !important;
@@ -6857,7 +6857,6 @@
     width: 45px;
     height: 45px;
 }
-
 
 
 
